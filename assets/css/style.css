@@ -167,7 +167,9 @@ body {
 .ly_overlay.show li:nth-child(7) {
   transition-delay: .7s;
 }
-
+.material-icons {
+  display: none;
+}
 
 /* Hero area
 --------------------------------------------------*/
@@ -176,16 +178,22 @@ body {
   text-align: center;
   padding-top: 64px;
   border-top: 1px solid #4d85e4;
-  border-bottom: 1px solid #93b1e4;
 }
 .bl_hero_container {
   display: flex;
+  width: 1000px;
+  margin: 0 auto;
 }
 .bl_hero_left-side {
   flex: 1;
   padding-top: 64px;
 }
+.bl_hero_title {
+  font-size: 40px;
+  color: white;
+}
 .bl_hero_left-side p {
+  font-size: 20px;
   margin-top: 16px;
   line-height: 2;
 }
@@ -524,6 +532,9 @@ body {
   /* Global navigation */
   .bl_global_nav {
     display: none;
+  }
+  .material-icons {
+    display: block;
   }
   /* Hero area */
   .bl_hero_container,
