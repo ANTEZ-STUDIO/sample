@@ -175,6 +175,8 @@ body {
   background: #6691db url(../img/hiro_bg.png) repeat-x center bottom;
   text-align: center;
   padding-top: 64px;
+  border-top: 1px solid #4d85e4;
+  border-bottom: 1px solid #93b1e4;
 }
 .bl_hero_container {
   display: flex;
